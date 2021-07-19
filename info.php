@@ -5,3 +5,4 @@ class dht11{
   print($temperature, $humidity)
  }
 }
+?>

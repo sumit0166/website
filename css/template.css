@@ -1,0 +1,150 @@
+body{
+	font-family : Courier;	
+}
+header{ 
+	height: 133px;
+	background : #f48f36c4;
+	border-style:groove;
+	/* background-image: url('https://cdn.pixabay.com/photo/2016/03/03/08/40/banner-1233711_960_720.jpg');*/
+}
+
+h1{
+	text-align : center ;
+	font-family:"Times New Roman";
+	font-size:250%;
+}
+h2{
+	font-size:80%;
+	text-align : center ;
+}
+
+aside{
+	background:#58079bba;
+	float : right;
+    height: 842px;
+	border: groove;
+}
+
+iframe{
+	font-color:white;
+	width:597px;
+	height:405px;
+	background-color:#45e454;
+}
+
+figcaption{
+	font-size:150%;
+}
+
+img{
+	width="500px"
+}
+table{
+	width: 100%;
+   	font-family: "Times New Roman", Times, serif;
+   	font-weight: bold;
+   	font-size: 70%;
+}
+
+th{
+	border-top-left-radius:6px;
+	border-top-right-radius:6px; 
+	color: #FFFFFF; 
+	background: #808000; 
+	border: 1px solid #FFFFFF; 
+	background-repeat: no-repeat;
+}
+
+td {
+	background: #E0FFFF; 
+	color: #808080; 
+	border: 1px solid #FFFFFF;
+	text-align: center;
+}
+
+table, td, th {
+	padding: 2%;
+}
+
+tr th:first-child, tr td:first-child {
+	text-align: left;
+}
+	
+tr td {
+	opacity: 0.8;
+}
+
+tr td:hover {
+	opacity: 2.5;
+	font-size: 120%;
+}
+
+a{
+	font-weight:bold;
+	display:block;
+	width: 200px;
+	color:#ffffff;
+	background: #0006CC;
+	text-align: center;
+	padding:4px;
+	margin : 0 auto;
+	text-decoration:none;
+	margin-top: 10px;
+	transition-property:color,width;
+	transition-duration: .3s;
+	transition-timing-function: ease-out;
+}
+
+a:hover ,a:focus {
+	color:#0006CC;
+	background: #B3B3B3;
+	width: 250px;
+}
+
+a:focus{
+	color:#0006CC;
+	background: #B3B3B3;
+}
+
+a:active{
+	border: solid;
+}
+
+#co_name{
+	background: none;
+	text-align: center;
+	font-family:"Times New Roman";
+	clear : both;
+}
+#fot{
+	font-weight:bold;
+	display:block;
+	width: 200px;
+	color:#ffffff;
+	background: #66ffdb;
+	text-align: center;
+	padding:4px;
+	margin : 0 auto;
+	margin-top: 10px;
+	display: inline-block;
+	float: centere;
+}
+
+#fot:hover{
+	color:#66ffdb;
+	background: #B3B3B3;
+}
+#fot:focus{
+	color:#66ffdb;
+	background: #B3B3B3;
+}
+nav{
+	display: block;
+	float: left;
+	margin: 0 0 0 4.767%;
+}
+
+footer{
+	height : 120px;
+	background: #00ffc399;
+}
